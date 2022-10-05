@@ -15,4 +15,9 @@ public class dockerController {
   public String helloWithName(@PathVariable String name){
     return "Hello " + name + " Welcome";
   }
+
+  @GetMapping("/gogogo")
+  public String yoyoyo(){
+    return "v2222222222";
+  }
 }
